@@ -1,0 +1,5 @@
+- path.work_path=/media/ygw/Dcase2023_github
+- set.features=false
+- set.train=false
+- set.eval=true
+- set.test=false
