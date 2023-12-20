@@ -15,7 +15,7 @@ The framework of train/finetune stage is shown as follows:
 
 
 #### How to run it?
-Please set the true development path or other hyperparameters on config.yaml file. Then you can select option (feature/train/finetune/metric) by the run.sh. For example. <br/>
+Please set the true development path or other hyperparameters on config.yaml file. Then you can select option by the run.sh. For example. <br/>
 
 feature extraction <br/>
 
