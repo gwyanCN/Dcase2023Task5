@@ -4,7 +4,7 @@
  * @Author: gwyan
  * @Date: 2023-12-20 14:37:31
  * @LastEditors: gwyan
- * @LastEditTime: 2023-12-25 09:50:13
+ * @LastEditTime: 2023-12-25 10:15:34
 -->
 
 ## DCASE2023 task5 code
@@ -36,6 +36,7 @@ feature extraction <br/>
 As our paper describe, our methods have a lot of hyper-parameter, we do not spend a lot of time to find the best hyper-parameters.<br/> 
 We belive if you carefully choose the hyper-parameters, you can get better results than our paper. The validatation set is small, so the results will has a little different if you run many times.
 
+Due to certain constraints, we are unable to release the full codebase. However, we encourage you to refer to our paper for details and believe that you will be able to replicate the work based on the information provided therein.
 
 ##### Reference
 Our code are based following code. <br/>
