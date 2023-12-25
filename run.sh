@@ -1,8 +1,16 @@
 #!/bin/bash
+###
+ # @Descripttion: 
+ # @version: 
+ # @Author: gwyan
+ # @Date: 2023-12-20 14:36:05
+ # @LastEditors: gwyan
+ # @LastEditTime: 2023-12-25 21:12:50
+### 
 export PYTHON=/home/ygw/.conda/envs/gwyan/bin:$PYTHON
 
 work_path=`pwd`
-if [[ $(basename $work_path) != Dcase2023_github ]];then
+if [[ $(basename $work_path) != Dcase2023Task5 ]];then
     echo Please cd to the Projects, and execute the run.sh && exit 1
 fi
 IFS=,
@@ -11,7 +19,7 @@ export CUDA_VISIBLE_DEVICES=0,1,2,3
 # training setting
 meta_training=false
 k_way=10
-n_shot=5 
+n_shot=5  # meta-training batch_size = k_way * n_shots
 
 # post processing setting
 val_path_=$work_path/Development/Validation_Set
