@@ -1,17 +1,26 @@
+<!--
+ * @Descripttion: 
+ * @version: 
+ * @Author: gwyan
+ * @Date: 2023-12-20 14:37:31
+ * @LastEditors: gwyan
+ * @LastEditTime: 2023-12-25 09:50:13
+-->
 
 ## DCASE2023 task5 code
 This is our submision code in DCASE2022-2023 task5. <br/>
 In the 2022 Task5 challenge, we propose an adaptive frame-level embedding learning learning network, which performs audio detection on each frame of the sliding window by adaptively, in conjunction with a supervision loss based on the support set. Finally we got the 1st rank in the Task5. Furthermore, in the 2023 challenge, we further propose the multitask frame-level embedding learning framework, which makes feature extractor and classifier more robust and powerful.<br/>
 
 The framework of train/finetune stage is shown as follows:
-* ### Training Framework                               
-    <img src="picture/train-stage.jpg" alt="network" title="training framework" style="width:500px;height:400px;"/>
-    <br/>
+* ### Training Framework      
+    |  training framework         |  TF-Encoder                          |
+    |-------------------------------|------------------------------|
+    | <img src="picture/train_stage.jpg" alt="network" title="training framework" style="width: 500px; height: 400px" />   | <img src="picture/TF-encoder.jpg" alt="network" title="finetune framework" style="width: 380px; height: 400px" /> |                         
 
 * ### Finetuning Framework                               
     |  SED branch          |  TE-VAD branch                           |
     |-------------------------------|------------------------------|
-    | <img src="picture/ft_classification_branch.jpg" alt="network" title="finetune framework" style="width: 560px; height: 320px" />   | <img src="picture/fine-tuning branch.jpg" alt="network" title="finetune framework" style="width: 300px; height: 320px" /> |
+    | <img src="picture/ft_classification_branch.jpg" alt="network" title="finetune framework" style="width: 680px; height: 400px" />   | <img src="picture/ft_tsvad_branch.jpg" alt="network" title="finetune framework" style="width: 300px; height: 400px" /> |
 
 
 #### How to run it?
