@@ -4,7 +4,7 @@
  * @Author: gwyan
  * @Date: 2023-12-20 14:37:31
  * @LastEditors: gwyan
- * @LastEditTime: 2023-12-25 10:26:00
+ * @LastEditTime: 2023-12-25 10:28:13
 -->
 
 ## DCASE2023 task5 code
@@ -20,7 +20,7 @@ The framework of train/finetune stage is shown as follows:
 * ### Finetuning Framework                               
     |  SED branch          |  TE-VAD branch                           |
     |-------------------------------|------------------------------|
-    | <img src="picture/ft_classification_branch.jpg" alt="network" title="finetune framework" style="width: 540px; height: 320px" />   | <img src="picture/ft_tsvad_branch.jpg" alt="network" title="finetune framework" style="width: 260px; height: 320px" /> |
+    | <img src="picture/ft_classification_branch.jpg" alt="network" title="finetune framework" style="width: 540px; height: 320px" />   | <img src="picture/ft_tsvad_branch.jpg" alt="network" title="finetune framework" style="width: 261px; height: 320px" /> |
 
 
 #### How to run it?
